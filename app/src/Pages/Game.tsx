@@ -16,8 +16,10 @@ export default function Game() {
 		// 	setGame();
 		// }
 
-
-		import(game.path)
+		// const snek = 'Snek/Snek.ts'
+		// renderGame();
+		import(`../Games/${game.path}.ts`)
+		// import(game.path)
 			.then(obj => {
 				new obj.default();
 				// currentGame.init();
@@ -25,6 +27,10 @@ export default function Game() {
 				console.log(e);
 			});
 	}, []);
+
+	// async function renderGame () {
+	// 	return  await import(game.path);
+	// }
 
 	return <>
 		<Box id="board">

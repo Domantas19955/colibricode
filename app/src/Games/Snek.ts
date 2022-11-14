@@ -6,10 +6,10 @@
 	
 */
 import GameEngine from "/src/Games/ge/GameEngine";
-import Player from "./Player";
-import Enemy from "./Enemy";
-import snekGUI from "./gui";
-import Manager from "../ge/Manager";
+import Player from "./Snek/Player";
+import Enemy from "./Snek/Enemy";
+import snekGUI from "./Snek/gui";
+import Manager from "./ge/Manager";
 
 export default class Snek extends GameEngine {
 	player: any;

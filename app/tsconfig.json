@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			// "/*": ["src/*"],
+			"/src/*": ["src/*"]
+		  },
+		"outDir": "./dist",
+		"target": "es6",
+		"module": "esnext",
+		"jsx": "react-jsx",
+		"noImplicitAny": true,
+		"moduleResolution": "Node",
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+	},
+	"include": [
+		"src"
+	  ],
+  }

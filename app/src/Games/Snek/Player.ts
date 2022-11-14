@@ -23,6 +23,7 @@ export default class Player {
 	]
 
 	start() {
+		
 		let segment1 = new Square('playerSegment_0', this.startingPos[0], this.segmentDimentions, '#090');
 		let segment2 = new Square('playerHeadSegment', this.startingPos[1], this.segmentDimentions, '#070');
 		segment2.transform.rotation = [0, -1];

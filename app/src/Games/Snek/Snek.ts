@@ -1,4 +1,10 @@
 
+// TODO
+/*
+	game over
+	perkelt logika i gameobjectus
+	
+*/
 import GameEngine from "/src/Games/ge/GameEngine";
 import Player from "./Player";
 import Enemy from "./Enemy";

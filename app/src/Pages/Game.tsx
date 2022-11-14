@@ -15,10 +15,14 @@ export default function Game() {
 		// if (gameId) {
 		// 	setGame();
 		// }
+
+
 		import(game.path)
 			.then(obj => {
 				new obj.default();
 				// currentGame.init();
+			}).catch(e => {
+				console.log(e);
 			});
 	}, []);
 

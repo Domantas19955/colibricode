@@ -3,7 +3,7 @@ export const GAMES = [
 	{
 		id: 1,
 		title: 'Snek',
-		path: '/src/Games/Snek/Snek'
+		path: './../Games/Snek/Snek.ts'
 	},
 	// {
 	// 	id: 2,
